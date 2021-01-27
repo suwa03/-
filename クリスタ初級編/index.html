@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>クリスタ 初級編</title>
+  <link rel="stylesheet" href="https://unpkg.com/modern-css-reset/dist/reset.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!-- header -->
+  <header class="header">
+    <h1 class="header-title">クリ★スタ</h1>
+    <div class="nav-wrapper">
+      <nav class="header-nav">
+        <ul class="nav-list">
+          <li class="nav-item">About</li>
+          <li class="nav-item">Service</li>
+          <li class="nav-item">Contents</li>
+        </ul>
+      </nav>
+    </div>
+    <!-- ハンバーガーボタン -->
+    <div class="burger-btn">
+      <span class="bar bar_top"></span>
+      <span class="bar bar_mid"></span>
+      <span class="bar bar_bottom"></span>
+    </div>
+  </header>
+  <!-- main -->
+  <main>
+    <div class="fv">
+      <p class="main-fv-title">Cresta Design.</p>
+    </div>
+    <!-- about -->
+    <section class="section-wrapper">
+      <h2 class="section-title">About</h2>
+      <h3 class="about-title">ミニマルで<br>洗練されたデザインを。</h3>
+      <p class="about-text">
+        近年、ミニマルなデザインが流行しています。そこで弊社では、クライアント企業様新規サービス等の課題に対してミニマルで洗練されたデザインを実現させることで解決のサポートを致します。もちろん全てのサービスにおいてミニマルなデザインが課題解決になるわけではないので、課題や今後のサービスの展開等しっかりとヒアリングを行なった上でご提案させて頂きます。
+      </p>
+    </section>
+    <!-- service -->
+    <section class="section-wrapper">
+      <h2 class="section-title">Service</h2>
+      <div class="content-inner">
+        <div class="text-wrapper-service">
+          <h3 class="service-title">リリース時のサポートで<br>
+            サービスのブランディングを</h3>
+          <p class="service-text">
+            弊社では、リリース時もサポートさせて頂きます。プレスリリース用のサイトや動画制作を通して、サービスのブランディングを行わせて頂きます。
+          </p>
+        </div>
+        <div class="service-img">
+          <img src="./img/service-image@2x.jpg" alt="黒いカメラ">
+        </div>
+      </div>
+      <div class="content-inner reverse">
+        <div class="text-wrapper-service">
+          <h3 class="service-title">リリース後のサポートで<br>
+            効果を最大化させる</h3>
+          <p class="service-text">
+            弊社では、リリース後もサポートさせて頂きます。サービスはリリース後に様々な課題にぶつかります。そこでクライアント様と一緒に改善を行うことで、デザインの効果を最大化させます。
+          </p>
+        </div>
+        <div class="service-img">
+          <img src="./img/service-image02@2x.jpg" alt="黒いスマホ">
+        </div>
+      </div>
+    </section>
+      <!-- NEWS -->
+    <section class="section-wrapper">
+      <h2 class="section-title">NEWS</h2>
+      <ul class="card-list">
+        <li class="card-item">
+          <div class="card-img">
+            <img src="./img/card-image1@2x.jpg" alt="黒いスマホカバーと黒い時計">
+          </div>
+            <p class="news-text">
+              新規サイトを公開しました。今回のサイトは白と黒を基調にしたミニマルなデザインになっています。
+            </p>
+        </li>
+        <li class="card-item">
+          <div class="card-img">
+            <img src=".//img/card-image2@2x.jpg" alt="スマホの液晶画面">
+          </div>
+            <p class="news-text">
+              新規サイトを公開しました。今回のサイトは白と黒を基調にしたミニマルなデザインになっています。
+            </p>
+        </li>
+        <li class="card-item">
+          <div class="card-img">
+            <img src="./img/card-image3@2x.jpg" alt="パソコン">
+          </div>
+          <p class="news-text">
+            新規サイトを公開しました。今回のサイトは白と黒を基調にしたミニマルなデザインになっています。
+          </p>
+        </li>
+      </ul>
+    </section>
+    <!-- お問い合わせ -->
+    <section class="section-wrapper">
+      <h2 class="section-title">お問い合わせ</h2>
+      <form action="" class="form
+      ">
+        <div class="form-part">
+          <label for="input-name">担当者名</label>
+          <input type="text" id="input-name" >
+        </div>
+        <div class="form-part">
+          <label for="input-tel">電話番号</label>
+          <input type="text" id="input-tel">
+        </div>
+        <div class="form-part">
+          <label for="input-mail">メールアドレス</label>
+          <input type="text" id="input-mail">
+        </div>
+        <div class="form-part">
+          <label for="detial">お問い合わせ</label>
+          <textarea name="detail" id="" cols="30" rows="10"></textarea>
+        </div>
+        <div class="form-send">
+          <input type="submit" value="送信" class="form-btn">
+        </div>
+      </form>
+    </section>
+  </main>
+  <!-- footer -->
+  <footer class="footer">
+    <small>©︎crest.design all rights reserved</small>
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>    
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
